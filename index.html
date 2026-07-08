@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SweetSiep — Manisnya Pas, Mood Jadi Gas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header>
+  <div class="nav-row">
+    <div class="logo">SWEET<span>SIEP</span></div>
+    <nav class="links">
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#menu">Menu Kami</a>
+      <a href="#kenapa">Kenapa Kami?</a>
+      <a href="#cerita">Cerita Sieppers</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:14px;">
+      <a href="#menu" class="btn btn-primary" style="padding:12px 22px;">Pesan Sekarang</a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <div class="mobile-nav-top">
+    <div class="logo">SWEET<span>SIEP</span></div>
+    <button class="close-btn" id="closeMobileNav">✕</button>
+  </div>
+  <a href="#tentang" class="mnav-link">Tentang Kami</a>
+  <a href="#menu" class="mnav-link">Menu Kami</a>
+  <a href="#kenapa" class="mnav-link">Kenapa Kami?</a>
+  <a href="#cerita" class="mnav-link">Cerita Sieppers</a>
+  <a href="#menu" class="btn btn-primary mnav-link" style="margin-top:30px;text-align:center;justify-content:center;">Pesan Sekarang</a>
+</div>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="hero-grid">
+    <div class="reveal">
+      <span class="eyebrow">Kopi Susu Gula Aren Juara!</span>
+      <h1>Manisnya Pas, <span class="accent">Mood Jadi Gas.</span></h1>
+      <p class="lead">Racikan kopi artisan lokal dengan sentuhan gula aren organik. Teman setia buat produktivitasmu seharian.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">Lihat Menu</a>
+        <button class="btn btn-outline" id="openOutletHero">Lokasi Outlet</button>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="hero-frame">
+        <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=900&auto=format&fit=crop" alt="Es kopi susu gula aren SweetSiep">
+      </div>
+      <div class="badge-circle">BEST AREN IN TOWN</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MARQUEE ===================== -->
+<div class="marquee-wrap">
+  <div class="marquee-track" id="marqueeTrack">
+    <span>Freshly Brewed</span><span>Arabica Blend</span><span>Gula Aren Organik</span><span>Mood Booster</span><span>100% Local Beans</span>
+    <span>Freshly Brewed</span><span>Arabica Blend</span><span>Gula Aren Organik</span><span>Mood Booster</span><span>100% Local Beans</span>
+  </div>
+</div>
+
+<!-- ===================== TENTANG KAMI ===================== -->
+<section id="tentang">
+  <div class="wrap about-grid">
+    <div class="about-visual reveal">
+      <div class="about-frame">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?q=80&w=900&auto=format&fit=crop" alt="Barista SweetSiep meracik kopi">
+      </div>
+      <div class="badge-circle about-badge">SEJAK 2021</div>
+    </div>
+    <div class="about-content reveal">
+      <span class="eyebrow">Tentang Kami</span>
+      <h2>Dari dapur kecil di Bandung, <span class="accent">buat kota tercinta.</span></h2>
+      <p class="about-text">SweetSiep berawal dari obrolan santai tiga sahabat yang gemas lihat gula aren lokal cuma jadi pemanis dapur, padahal rasanya jauh lebih kaya dari sekadar gula pasir. Tahun 2021, kami mulai racik kopi susu gula aren dari dapur rumah, dijual dari akun Instagram seadanya.</p>
+      <p class="about-text">Sekarang SweetSiep tumbuh jadi beberapa outlet di Bandung, tapi prinsipnya tetap sama: biji kopi arabika dari petani Nusantara, gula aren organik asli tanpa campuran sirup, dan pelayanan yang bikin siapapun betah ngopi lebih lama.</p>
+      <div class="about-stats">
+        <div class="stat"><strong>2021</strong><span>Tahun berdiri</span></div>
+        <div class="stat"><strong>3+</strong><span>Outlet aktif</span></div>
+        <div class="stat"><strong>50rb+</strong><span>Cangkir terjual</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MENU ===================== -->
+<section id="menu">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <h2>Paling Sering <br><span class="accent">Di-siep.</span></h2>
+      </div>
+      <p>Kurasi menu favorit pilihan komunitas penikmat kopi SweetSiep. Tambahkan ke keranjang, lalu pesan langsung lewat WhatsApp.</p>
+    </div>
+
+    <div class="filter-row reveal">
+      <button class="filter-chip active" data-filter="semua">Semua Menu</button>
+      <button class="filter-chip" data-filter="minuman">Kopi & Minuman</button>
+      <button class="filter-chip" data-filter="makanan">Makanan</button>
+    </div>
+
+    <div class="menu-grid" id="menuGrid">
+      <div class="card reveal" data-id="signature-aren" data-name="Signature Aren" data-category="minuman" data-price="18000">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=700&auto=format&fit=crop" alt="Signature Aren"></div>
+        <div class="card-body">
+          <div class="card-top"><h3>Signature Aren</h3><span class="price">Rp 18k</span></div>
+          <p class="card-desc">Kopi susu gula aren klasik yang bikin nagih dari tegukan pertama.</p>
+          <div class="tag-row"><span class="tag">Best Seller</span><span class="tag">Dingin</span></div>
+          <button class="add-btn" data-add>+ Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <div class="card reveal" data-id="sea-salt-cream" data-name="Sea Salt Cream" data-category="minuman" data-price="24000">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=700&auto=format&fit=crop" alt="Sea Salt Cream"></div>
+        <div class="card-body">
+          <div class="card-top"><h3>Sea Salt Cream</h3><span class="price">Rp 24k</span></div>
+          <p class="card-desc">Paduan kopi creamy dengan sentuhan gurih sea salt yang unik.</p>
+          <div class="tag-row"><span class="tag">Creamy</span></div>
+          <button class="add-btn" data-add>+ Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <div class="card reveal" data-id="pandan-waltz" data-name="Pandan Waltz" data-category="minuman" data-price="22000">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?q=80&w=700&auto=format&fit=crop" alt="Pandan Waltz"></div>
+        <div class="card-body">
+          <div class="card-top"><h3>Pandan Waltz</h3><span class="price">Rp 22k</span></div>
+          <p class="card-desc">Aroma pandan wangi berpadu dengan espresso shot yang bold.</p>
+          <div class="tag-row"><span class="tag">Must Try</span></div>
+          <button class="add-btn" data-add>+ Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <div class="card reveal" data-id="choco-aren-blast" data-name="Choco Aren Blast" data-category="minuman" data-price="25000">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1481391319762-47dff72954d9?q=80&w=700&auto=format&fit=crop" alt="Choco Aren Blast"></div>
+        <div class="card-body">
+          <div class="card-top"><h3>Choco Aren Blast</h3><span class="price">Rp 25k</span></div>
+          <p class="card-desc">Perpaduan cokelat premium dan gula aren, creamy dan legit buat pecinta rasa manis pekat.</p>
+          <div class="tag-row"><span class="tag">Signature</span></div>
+          <button class="add-btn" data-add>+ Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <div class="card reveal" data-id="kopi-susu-original" data-name="Kopi Susu Original" data-category="minuman" data-price="15000">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=700&auto=format&fit=crop" alt="Kopi Susu Original"></div>
+        <div class="card-body">
+          <div class="card-top"><h3>Kopi Susu Original</h3><span class="price">Rp 15k</span></div>
+          <p class="card-desc">Klasik tanpa aren, rasa kopi susu yang bersih dan netral buat kamu yang suka simpel.</p>
+          <div class="tag-row"><span class="tag">Klasik</span><span class="tag">Hemat</span></div>
+          <button class="add-btn" data-add>+ Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <div class="card reveal" data-id="hazelnut-aren-latte" data-name="Hazelnut Aren Latte" data-category="minuman" data-price="27000">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=700&auto=format&fit=crop" alt="Hazelnut Aren Latte"></div>
+        <div class="card-body">
+          <div class="card-top"><h3>Hazelnut Aren Latte</h3><span class="price">Rp 27k</span></div>
+          <p class="card-desc">Es kopi latte dengan sentuhan hazelnut wangi, dipadu gula aren yang creamy di setiap tegukan.</p>
+          <div class="tag-row"><span class="tag">New</span></div>
+          <button class="add-btn" data-add>+ Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <div class="card reveal" data-id="americano-aren" data-name="Americano Aren" data-category="minuman" data-price="20000">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?q=80&w=700&auto=format&fit=crop" alt="Americano Aren"></div>
+        <div class="card-body">
+          <div class="card-top"><h3>Americano Aren</h3><span class="price">Rp 20k</span></div>
+          <p class="card-desc">Kopi hitam ringan dipadu gula aren tipis-tipis, buat yang suka rasa bold tapi nggak eneg manis.</p>
+          <div class="tag-row"><span class="tag">Bold</span><span class="tag">Less Sugar</span></div>
+          <button class="add-btn" data-add>+ Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <div class="card reveal" data-id="croissant-butter" data-name="Croissant Butter" data-category="makanan" data-price="19000">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=700&auto=format&fit=crop" alt="Croissant Butter"></div>
+        <div class="card-body">
+          <div class="card-top"><h3>Croissant Butter</h3><span class="price">Rp 19k</span></div>
+          <p class="card-desc">Croissant renyah berlapis mentega, teman pas buat kopi pagi kamu.</p>
+          <div class="tag-row"><span class="tag">Best Pair</span></div>
+          <button class="add-btn" data-add>+ Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <div class="card reveal" data-id="pancake-blast" data-name="Pancake Blast" data-category="makanan" data-price="17000">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=700&auto=format&fit=crop" alt="Roti Bakar Gula Aren"></div>
+        <div class="card-body">
+          <div class="card-top"><h3>Pancake Blast</h3><span class="price">Rp 25k</span></div>
+          <p class="card-desc">Roti bakar keju dengan siraman gula aren cair, manis gurih bikin nagih.</p>
+          <div class="tag-row"><span class="tag">Signature</span></div>
+          <button class="add-btn" data-add>+ Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <div class="card reveal" data-id="pisang-goreng-keju" data-name="Pisang Goreng Keju" data-category="makanan" data-price="16000">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1587132137056-bfbf0166836e?q=80&w=700&auto=format&fit=crop" alt="Pisang Goreng Keju"></div>
+        <div class="card-body">
+          <div class="card-top"><h3>Pisang Goreng Keju</h3><span class="price">Rp 16k</span></div>
+          <p class="card-desc">Pisang goreng crispy dengan topping keju parut dan susu kental manis.</p>
+          <div class="tag-row"><span class="tag">Snack</span></div>
+          <button class="add-btn" data-add>+ Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <div class="card reveal" data-id="waffle-aren-vanilla" data-name="Waffle Aren Vanilla" data-category="makanan" data-price="23000">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?q=80&w=700&auto=format&fit=crop" alt="Waffle Aren Vanilla"></div>
+        <div class="card-body">
+          <div class="card-top"><h3>Waffle Aren Vanilla</h3><span class="price">Rp 23k</span></div>
+          <p class="card-desc">Waffle renyah disiram gula aren hangat, ditemani satu scoop es krim vanilla.</p>
+          <div class="tag-row"><span class="tag">Dessert</span></div>
+          <button class="add-btn" data-add>+ Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <div class="card reveal" data-id="sandwich-ayam-smoked" data-name="Sandwich Ayam Smoked" data-category="makanan" data-price="28000">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1567234669003-dce7a7a88821?q=80&w=700&auto=format&fit=crop" alt="Sandwich Ayam Smoked"></div>
+        <div class="card-body">
+          <div class="card-top"><h3>Sandwich Ayam Smoked</h3><span class="price">Rp 28k</span></div>
+          <p class="card-desc">Sandwich isi ayam asap, selada segar, dan saus mayo homemade. Bikin kenyang.</p>
+          <div class="tag-row"><span class="tag">Mengenyangkan</span></div>
+          <button class="add-btn" data-add>+ Tambah ke Keranjang</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== KENAPA KAMI ===================== -->
+<div class="why-wrap" id="kenapa">
+  <section>
+    <div class="wrap">
+      <span class="eyebrow reveal" style="margin-bottom:18px;">Kenapa SweetSiep?</span>
+      <h2 class="reveal" style="font-size:38px;font-weight:800;line-height:1.2;max-width:520px;margin-bottom:52px;">Bukan sekadar kopi susu <span class="accent">biasa.</span></h2>
+
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-num">01</div>
+          <span class="kicker">Kualitas</span>
+          <h3>Biji Arabika Lokal</h3>
+          <p>Kerja bareng petani Nusantara untuk biji pilihan yang dipanggang fresh tiap minggu.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-num">02</div>
+          <span class="kicker">Rasa</span>
+          <h3>Manisnya Diracik</h3>
+          <p>Gula aren organik asli, bukan sirup. Manis yang bulat, nggak bikin eneg.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-num">03</div>
+          <span class="kicker">Vibes</span>
+          <h3>Bikin Mood Naik</h3>
+          <p>Dari packaging sampai rasa, semua dirancang biar hari kamu terasa lebih ringan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ===================== CERITA SIEPPERS ===================== -->
+<section id="cerita">
+  <div class="wrap">
+    <h2 class="reveal" style="text-align:center;font-size:38px;font-weight:800;margin-bottom:48px;">Cerita <span class="accent">Sieppers.</span></h2>
+    <div class="quote-grid">
+      <div class="quote-card reveal">
+        <p>"Kopi susu aren terenak yang pernah gue coba. Manisnya pas banget, nggak bikin eneg. Tiap hari wajib pesan satu!"</p>
+        <div class="quote-person">
+          <div class="avatar"></div>
+          <div><strong>Andini Putri</strong><span>Freelance Designer</span></div>
+        </div>
+      </div>
+      <div class="quote-card reveal">
+        <p>"Mood booster paling ampuh buat ngejar deadline. Packaging-nya juga keren banget, dapet stiker lucu pula!"</p>
+        <div class="quote-person">
+          <div class="avatar"></div>
+          <div><strong>Budi Santoso</strong><span>Software Engineer</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section style="padding-top:20px;">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <div class="badge-circle">MAMPIR YUK!</div>
+      <h2>Siap kenalan sama kopi<br>favorit barumu?</h2>
+      <p>Pesan lewat aplikasi pengantaran favoritmu, atau mampir langsung ke gerai SweetSiep terdekat.</p>
+      <div class="cta-actions">
+        <a class="btn btn-ghost-white" id="ctaWhatsapp" target="_blank" rel="noopener">Pesan via WhatsApp</a>
+        <button class="btn btn-outline-white" id="openOutletCta">Cari Outlet Terdekat</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="logo">SWEET<span style="color:#F2A65A;">SIEP</span></div>
+        <p class="desc">Merayakan setiap tegukan dengan kebahagiaan sederhana. Mari mampir ke outlet kami atau pesan via aplikasi favoritmu.</p>
+        <div class="social-row">
+          <a class="social-pill" href="#" onclick="return false;">IG</a>
+          <a class="social-pill" href="#" onclick="return false;">TW</a>
+          <a class="social-pill" href="#" onclick="return false;">TT</a>
+        </div>
+      </div>
+      <div class="contact-card">
+        <h3>Ada Pertanyaan?</h3>
+        <p>Tanya-tanya via WhatsApp kami, dijawab langsung sama barista.</p>
+        <a class="btn btn-ghost-white" id="footerWhatsapp" target="_blank" rel="noopener" style="padding:11px 22px;">Hubungi Kami</a>
+      </div>
+    </div>
+    <div class="copyright">© 2026 SweetSiep Coffee. Diseduh dengan cinta di Indonesia.</div>
+  </div>
+</footer>
+
+<!-- ===================== CART FAB + DRAWER ===================== -->
+<button class="cart-fab" id="cartFab">
+  🛒 Keranjang <span class="cart-count" id="cartCount">0</span>
+</button>
+
+<div class="overlay" id="overlay"></div>
+
+<div class="drawer" id="cartDrawer">
+  <div class="drawer-head">
+    <h3>Keranjangmu</h3>
+    <button class="close-btn" id="closeDrawer">✕</button>
+  </div>
+  <div class="drawer-body" id="drawerBody">
+    <div class="empty-state">Belum ada kopi di keranjang.<br>Yuk pilih menu favoritmu dulu 👆</div>
+  </div>
+  <div class="drawer-foot" id="drawerFoot" style="display:none;">
+    <div class="total-row"><span>Total</span><span id="cartTotal">Rp 0</span></div>
+    <a class="btn btn-primary" id="checkoutBtn" target="_blank" rel="noopener">Pesan via WhatsApp</a>
+    <p class="step-note">Klik untuk lanjut chat WhatsApp — pesanan otomatis terisi.</p>
+  </div>
+</div>
+
+<!-- ===================== OUTLET MODAL ===================== -->
+<div class="modal" id="outletModal">
+  <div class="modal-card">
+    <h3>Outlet Terdekat</h3>
+    <p>Pilih gerai SweetSiep yang paling gampang kamu jangkau.</p>
+    <div class="outlet-item">
+      <div><strong>SweetSiep Dago</strong><span>Jl. Ir. H. Djuanda No.12, Bandung</span></div>
+      <a href="https://www.google.com/maps/search/SweetSiep+Coffee+Dago+Bandung" target="_blank" rel="noopener">Buka Peta →</a>
+    </div>
+    <div class="outlet-item">
+      <div><strong>SweetSiep Buah Batu</strong><span>Jl. Buah Batu No.45, Bandung</span></div>
+      <a href="https://www.google.com/maps/search/SweetSiep+Coffee+Buah+Batu+Bandung" target="_blank" rel="noopener">Buka Peta →</a>
+    </div>
+    <div class="outlet-item">
+      <div><strong>SweetSiep Setiabudi</strong><span>Jl. Dr. Setiabudi No.89, Bandung</span></div>
+      <a href="https://www.google.com/maps/search/SweetSiep+Coffee+Setiabudi+Bandung" target="_blank" rel="noopener">Buka Peta →</a>
+    </div>
+    <button class="btn btn-outline" id="closeOutletModal" style="width:100%;margin-top:22px;">Tutup</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
