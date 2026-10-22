@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SweetSiep — Kopi Susu Gula Aren, Manisnya Pas, Mood Jadi Gas</title>
+<meta name="description" content="SweetSiep: kopi susu gula aren dan teman ngopi pilihan. Lihat menu, tambahkan ke keranjang, lalu pesan lewat WhatsApp.">
+<meta name="theme-color" content="#E86A1C">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="id_ID">
+<meta property="og:site_name" content="SweetSiep">
+<meta property="og:title" content="SweetSiep — Manisnya Pas, Mood Jadi Gas">
+<meta property="og:description" content="Kopi susu gula aren dan teman ngopi pilihan. Pesan lewat WhatsApp.">
+<meta property="og:image" content="assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/sora-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"SweetSiep","description":"Kopi susu gula aren dan teman ngopi pilihan."}
+</script>
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+<header class="site-header" id="top">
+  <div class="nav-row">
+    <a class="logo" href="#top" aria-label="SweetSiep, ke awal halaman">SWEET<span>SIEP</span></a>
+    <nav class="links" aria-label="Navigasi utama">
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#keunggulan">Keunggulan</a>
+      <a href="#testimoni">Testimoni</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="#menu" class="btn btn-primary btn-sm nav-order">Pesan Sekarang</a>
+      <button type="button" class="hamburger" id="hamburgerBtn" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav" role="dialog" aria-modal="true" aria-label="Menu navigasi" aria-hidden="true">
+  <div class="mobile-nav-top">
+    <span class="logo">SWEET<span>SIEP</span></span>
+    <button type="button" class="icon-btn" id="closeMobileNav" aria-label="Tutup menu navigasi">✕</button>
+  </div>
+  <nav class="mobile-links" aria-label="Navigasi seluler">
+    <a href="#tentang" class="mnav-link">Tentang Kami</a>
+    <a href="#menu" class="mnav-link">Menu</a>
+    <a href="#keunggulan" class="mnav-link">Keunggulan</a>
+    <a href="#testimoni" class="mnav-link">Testimoni</a>
+    <a href="#menu" class="btn btn-primary mnav-link mnav-cta">Pesan Sekarang</a>
+  </nav>
+</div>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" aria-labelledby="heroTitle">
+  <div class="hero-grid">
+    <div class="reveal">
+      <span class="eyebrow">Kopi Susu Gula Aren Juara!</span>
+      <h1 id="heroTitle">Manisnya Pas, <span class="accent">Mood Jadi Gas.</span></h1>
+      <p class="lead">Racikan kopi susu dengan sentuhan gula aren. Teman setia buat produktivitasmu seharian.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">Lihat Menu</a>
+        <button type="button" class="btn btn-outline" data-open-outlet>Lokasi Outlet</button>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="hero-frame">
+        <img src="assets/img/hero.svg" width="400" height="460" alt="Ilustrasi es kopi susu gula aren dengan sedotan oranye" fetchpriority="high">
+      </div>
+      <div class="badge-circle" aria-hidden="true">GULA AREN LOVERS</div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee-wrap" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Freshly Brewed</span><span>Kopi Susu</span><span>Gula Aren</span><span>Mood Booster</span><span>Teman Ngopi</span>
+    <span>Freshly Brewed</span><span>Kopi Susu</span><span>Gula Aren</span><span>Mood Booster</span><span>Teman Ngopi</span>
+  </div>
+</div>
+
+<!-- TENTANG -->
+<section id="tentang" class="section" aria-labelledby="aboutTitle">
+  <div class="wrap about-grid">
+    <div class="about-visual reveal">
+      <div class="about-frame">
+        <img src="assets/img/about.svg" width="400" height="400" loading="lazy" alt="Ilustrasi proses menyeduh kopi dengan potongan gula aren">
+      </div>
+    </div>
+    <div class="about-content reveal">
+      <span class="eyebrow">Tentang Kami</span>
+      <h2 id="aboutTitle">Kopi susu gula aren, <span class="accent">diracik dengan niat.</span></h2>
+      <p class="about-text">SweetSiep berangkat dari satu keyakinan sederhana: gula aren punya rasa yang jauh lebih kaya dari sekadar pemanis. Kami meracik kopi susu gula aren dengan takaran yang dijaga agar manisnya pas, bulat, dan tidak bikin eneg.</p>
+      <p class="about-text">Selain kopi, ada pilihan makanan ringan sebagai teman ngopi. Tujuannya sama: bikin harimu terasa sedikit lebih ringan.</p>
+      <div class="about-stats" id="aboutStats" hidden></div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="section section-menu" aria-labelledby="menuTitle">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2 id="menuTitle">Paling Sering <span class="accent">Di-siep.</span></h2>
+      <p>Pilih menu favoritmu, tambahkan ke keranjang, lalu kirim pesanan lewat WhatsApp. Pembayaran dan ketersediaan dikonfirmasi oleh tim SweetSiep.</p>
+    </div>
+
+    <div class="menu-toolbar reveal">
+      <div class="search-box">
+        <label for="menuSearch" class="sr-only">Cari menu</label>
+        <input type="search" id="menuSearch" placeholder="Cari menu, mis. aren, croissant…" autocomplete="off" maxlength="60">
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter kategori menu">
+        <button type="button" class="filter-chip active" data-filter="semua" aria-pressed="true">Semua Menu</button>
+        <button type="button" class="filter-chip" data-filter="minuman" aria-pressed="false">Kopi &amp; Minuman</button>
+        <button type="button" class="filter-chip" data-filter="makanan" aria-pressed="false">Makanan</button>
+      </div>
+    </div>
+
+    <p class="result-count" id="resultCount" role="status" aria-live="polite"></p>
+    <div class="menu-grid" id="menuGrid"></div>
+    <div class="empty-results" id="emptyResults" hidden>
+      <p><strong>Menu tidak ditemukan.</strong><br>Coba kata kunci lain atau tampilkan semua menu.</p>
+      <button type="button" class="btn btn-outline btn-sm" id="resetFilters">Tampilkan semua menu</button>
+    </div>
+    <noscript><p class="noscript-note">Menu membutuhkan JavaScript. Aktifkan JavaScript di browser untuk melihat menu dan memesan.</p></noscript>
+  </div>
+</section>
+
+<!-- KEUNGGULAN -->
+<section id="keunggulan" class="section why-wrap" aria-labelledby="whyTitle">
+  <div class="wrap">
+    <span class="eyebrow reveal">Kenapa SweetSiep?</span>
+    <h2 id="whyTitle" class="why-title reveal">Bukan sekadar kopi susu <span class="accent">biasa.</span></h2>
+    <div class="why-grid">
+      <article class="why-card reveal">
+        <div class="why-num" aria-hidden="true">01</div>
+        <span class="kicker">Kualitas</span>
+        <h3>Biji Kopi Pilihan</h3>
+        <p>Kami memilih biji kopi dengan karakter yang cocok dipadu susu dan gula aren.</p>
+      </article>
+      <article class="why-card reveal">
+        <div class="why-num" aria-hidden="true">02</div>
+        <span class="kicker">Rasa</span>
+        <h3>Manisnya Diracik</h3>
+        <p>Gula aren sebagai pemanis utama. Manis yang bulat, nggak bikin eneg.</p>
+      </article>
+      <article class="why-card reveal">
+        <div class="why-num" aria-hidden="true">03</div>
+        <span class="kicker">Vibes</span>
+        <h3>Bikin Mood Naik</h3>
+        <p>Dari tampilan sampai rasa, semua dirancang biar harimu terasa lebih ringan.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section id="testimoni" class="section" aria-labelledby="testiTitle">
+  <div class="wrap">
+    <h2 id="testiTitle" class="center reveal">Cerita <span class="accent">Sieppers.</span></h2>
+    <div class="quote-grid" id="quoteGrid"></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section cta-section" aria-labelledby="ctaTitle">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <h2 id="ctaTitle">Siap kenalan sama kopi<br>favorit barumu?</h2>
+      <p>Pesan lewat WhatsApp, atau cek lokasi outlet SweetSiep.</p>
+      <div class="cta-actions">
+        <a class="btn btn-ghost-white" data-wa-link data-wa-text="Halo SweetSiep, saya ingin bertanya soal menu." target="_blank" rel="noopener noreferrer">Pesan via WhatsApp</a>
+        <button type="button" class="btn btn-outline-white" data-open-outlet>Cari Outlet</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <span class="logo">SWEET<span>SIEP</span></span>
+        <p class="desc">Merayakan setiap tegukan dengan kebahagiaan sederhana. Pesan lewat WhatsApp atau mampir ke outlet kami.</p>
+        <p class="hours" id="footerHours" hidden></p>
+        <ul class="social-row" id="socialRow" aria-label="Media sosial" hidden></ul>
+      </div>
+      <div class="contact-card">
+        <h3>Ada Pertanyaan?</h3>
+        <p>Tanya-tanya lewat WhatsApp, dijawab langsung oleh tim kami.</p>
+        <a class="btn btn-ghost-white btn-sm" data-wa-link data-wa-text="Halo SweetSiep, saya ingin bertanya." target="_blank" rel="noopener noreferrer">Hubungi Kami</a>
+      </div>
+    </div>
+    <nav class="footer-nav" aria-label="Navigasi footer">
+      <a href="#tentang">Tentang Kami</a><a href="#menu">Menu</a><a href="#keunggulan">Keunggulan</a><a href="#testimoni">Testimoni</a>
+    </nav>
+    <div class="copyright">© <span id="year">2026</span> SweetSiep. Diseduh dengan cinta di Indonesia.</div>
+  </div>
+</footer>
+
+<!-- KERANJANG -->
+<button type="button" class="cart-fab" id="cartFab" aria-haspopup="dialog" aria-controls="cartDrawer">
+  <span aria-hidden="true">🛒</span> Keranjang <span class="cart-count" id="cartCount" aria-label="0 item">0</span>
+</button>
+
+<div class="overlay" id="overlay" hidden></div>
+
+<aside class="drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle" aria-hidden="true">
+  <div class="drawer-head">
+    <h2 id="cartTitle">Keranjangmu</h2>
+    <button type="button" class="icon-btn" id="closeDrawer" aria-label="Tutup keranjang">✕</button>
+  </div>
+  <div class="drawer-body" id="drawerBody"></div>
+  <form class="drawer-foot" id="checkoutForm" novalidate hidden>
+    <div class="form-grid">
+      <div class="field">
+        <label for="custName">Nama pelanggan <span class="req">*</span></label>
+        <input type="text" id="custName" name="name" maxlength="60" autocomplete="name" required aria-describedby="nameError">
+        <p class="field-error" id="nameError" role="alert"></p>
+      </div>
+      <div class="field" id="outletField" hidden>
+        <label for="custOutlet">Outlet pengambilan</label>
+        <select id="custOutlet" name="outlet"></select>
+      </div>
+      <div class="field">
+        <label for="custNote">Catatan (opsional)</label>
+        <textarea id="custNote" name="note" rows="2" maxlength="200" placeholder="Mis. less sugar, tanpa es"></textarea>
+      </div>
+    </div>
+    <p class="method-note">Metode pemesanan: <strong id="methodLabel"></strong></p>
+    <div class="total-row"><span>Total</span><span id="cartTotal">–</span></div>
+    <p class="field-error" id="checkoutError" role="alert"></p>
+    <button type="submit" class="btn btn-primary btn-block" id="checkoutBtn">Pesan via WhatsApp</button>
+    <button type="button" class="btn-link" id="clearCartBtn">Kosongkan keranjang</button>
+    <p class="step-note">Tombol di atas membuka chat WhatsApp dengan pesan yang sudah terisi. Pesanan belum tercatat otomatis; tim SweetSiep akan mengonfirmasi ketersediaan dan pembayaran lewat chat.</p>
+  </form>
+</aside>
+
+<!-- OUTLET -->
+<div class="modal" id="outletModal" role="dialog" aria-modal="true" aria-labelledby="outletTitle" aria-hidden="true">
+  <div class="modal-card">
+    <h2 id="outletTitle">Lokasi Outlet</h2>
+    <div id="outletList"></div>
+    <button type="button" class="btn btn-outline btn-block" id="closeOutletModal">Tutup</button>
+  </div>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/products.js"></script>
+<script src="js/lib.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

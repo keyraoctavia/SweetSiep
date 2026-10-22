@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Ilustrasi pancake">
+<rect width="400" height="300" fill="#F7EBD7"/>
+<circle cx="70" cy="70" r="46" fill="#F6D78A" opacity=".55"/><circle cx="340" cy="240" r="58" fill="#F0B88A" opacity=".5"/><g transform="translate(52 240) rotate(-20) scale(1)"><ellipse cx="0" cy="0" rx="13" ry="9" fill="#5A3A22" stroke="#251A10" stroke-width="3"/><path d="M-11 0 Q0 -4 11 0" fill="none" stroke="#251A10" stroke-width="2.5"/></g><g transform="translate(350 60) rotate(25) scale(0.9)"><ellipse cx="0" cy="0" rx="13" ry="9" fill="#5A3A22" stroke="#251A10" stroke-width="3"/><path d="M-11 0 Q0 -4 11 0" fill="none" stroke="#251A10" stroke-width="2.5"/></g><g transform="translate(332 90) rotate(-30) scale(0.7)"><ellipse cx="0" cy="0" rx="13" ry="9" fill="#5A3A22" stroke="#251A10" stroke-width="3"/><path d="M-11 0 Q0 -4 11 0" fill="none" stroke="#251A10" stroke-width="2.5"/></g><ellipse cx="200" cy="262" rx="125" ry="12" fill="#251A10" opacity=".16"/>
+<g stroke="#251A10" stroke-width="5" stroke-linejoin="round">
+<path d="M82 214 L82 236 Q200 282 318 236 L318 214 Z" fill="#C98233"/><ellipse cx="200" cy="214" rx="118" ry="38" fill="#E9AE55"/>
+<path d="M92 176 L92 200 Q200 244 308 200 L308 176 Z" fill="#C98233"/><ellipse cx="200" cy="176" rx="108" ry="34" fill="#EDB863"/>
+<path d="M104 142 L104 164 Q200 204 296 164 L296 142 Z" fill="#C98233"/><ellipse cx="200" cy="142" rx="96" ry="30" fill="#F1C373"/></g>
+<path d="M120 142 Q140 128 170 140 Q190 150 200 138 Q220 124 250 136 Q268 144 282 142 Q270 170 240 166 Q226 186 212 164 Q190 176 176 160 Q150 172 130 160 Z" fill="#4A2A14" stroke="#251A10" stroke-width="4" stroke-linejoin="round"/>
+<g stroke="#251A10" stroke-width="4.5" stroke-linejoin="round"><rect x="176" y="104" width="46" height="30" rx="6" fill="#FFE49A" transform="rotate(-6 199 119)"/></g>
+<path d="M186 112 L208 109" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+</svg>

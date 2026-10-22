@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Ilustrasi sandwich ayam">
+<rect width="400" height="300" fill="#F4EBD9"/>
+<circle cx="70" cy="70" r="46" fill="#D6E4BA" opacity=".55"/><circle cx="340" cy="240" r="58" fill="#F0C99E" opacity=".5"/><g transform="translate(52 240) rotate(-20) scale(1)"><ellipse cx="0" cy="0" rx="13" ry="9" fill="#5A3A22" stroke="#251A10" stroke-width="3"/><path d="M-11 0 Q0 -4 11 0" fill="none" stroke="#251A10" stroke-width="2.5"/></g><g transform="translate(350 60) rotate(25) scale(0.9)"><ellipse cx="0" cy="0" rx="13" ry="9" fill="#5A3A22" stroke="#251A10" stroke-width="3"/><path d="M-11 0 Q0 -4 11 0" fill="none" stroke="#251A10" stroke-width="2.5"/></g><g transform="translate(332 90) rotate(-30) scale(0.7)"><ellipse cx="0" cy="0" rx="13" ry="9" fill="#5A3A22" stroke="#251A10" stroke-width="3"/><path d="M-11 0 Q0 -4 11 0" fill="none" stroke="#251A10" stroke-width="2.5"/></g><ellipse cx="200" cy="268" rx="130" ry="11" fill="#251A10" opacity=".16"/>
+<g stroke="#251A10" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M84 154 Q84 100 140 100 L260 100 Q316 100 316 154 L316 172 L84 172 Z" fill="#E4B061"/>
+<path d="M84 172 Q110 160 138 172 Q166 184 194 172 Q224 160 252 172 Q284 184 316 172 L316 190 L84 190 Z" fill="#8FB468"/>
+<rect x="90" y="190" width="220" height="22" rx="7" fill="#C86B54"/>
+<path d="M88 212 L312 212 L306 238 L94 238 Z" fill="#F2DFC0"/>
+<path d="M84 238 L316 238 L316 248 Q316 262 300 262 L100 262 Q84 262 84 248 Z" fill="#E4B061"/></g>
+<g fill="#7A4A2A" opacity=".55"><ellipse cx="150" cy="226" rx="10" ry="5"/><ellipse cx="205" cy="228" rx="9" ry="5"/><ellipse cx="262" cy="225" rx="10" ry="5"/></g>
+<g fill="#FFF2CF" stroke="#251A10" stroke-width="2.5"><ellipse cx="150" cy="120" rx="5" ry="3"/><ellipse cx="200" cy="112" rx="5" ry="3"/><ellipse cx="250" cy="122" rx="5" ry="3"/><ellipse cx="222" cy="138" rx="5" ry="3"/><ellipse cx="172" cy="140" rx="5" ry="3"/></g>
+<path d="M104 128 Q120 112 150 108" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+</svg>
